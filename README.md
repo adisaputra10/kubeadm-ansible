@@ -32,7 +32,9 @@ If you're working with ubuntu, add the following properties to each host `ansibl
 192.16.35.12 ansible_python_interpreter='python3'
 
 [node]
-192.16.35.[10:11] ansible_python_interpreter='python3'
+192.16.35.10 ansible_python_interpreter='python3'
+192.16.35.11 ansible_python_interpreter='python3'
+192.16.35.12 ansible_python_interpreter='python3'
 
 [kube-cluster:children]
 master
